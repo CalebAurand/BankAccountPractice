@@ -131,6 +131,8 @@ class Transaction {
 
 };
 
+module.exports = BankAccount, Transaction; // attempting to export the BankAccount and Transaction classes
+
 let tr1 = new Transaction(50, "Sharon spend money");
 // console.log(tr1);
 let tr2 = new Transaction(-60, "Aldi");
